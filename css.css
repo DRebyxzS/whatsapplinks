@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(255, 204, 0);
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    Color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 340px;
+    
+}
+.logo img{
+    display: flex;
+    height: 80px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+    font-size: 95%;
+    
+}
+.nav-link_p{
+    font-weight: 600;
+    padding-right: 40px;
+    color: #154202;
+    font-size: 20px;
+}
+nav{
+    padding-right: 200px;
+}
+nav a:hover{
+    color: white;
+}
+.nav-link_p:hover{
+    color: #154202;
+}
+@media (max-width:700px){
+   header{
+    flex-direction:column;
+   }
+   nav{
+    padding: 10px 0px;
+   }
+}
+.background-image{
+    background-image:url("CAFE.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.tittle_1{
+    font-size: 100px;
+    text-shadow: 0px 0px 10px #0E2244;
+}
+.div_100{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.div_50{
+    width: 50%;
+    padding-left: 5%;
+}
+#div_50_1{
+    background-color: rgb(255, 204, 0);
+}
+#div_50_2{
+    background-color: #154202;
+}
